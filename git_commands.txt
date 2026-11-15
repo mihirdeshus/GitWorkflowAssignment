@@ -1,0 +1,76 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init
+Initializes a new Git repository in the current project directory.
+
+2. git branch -M main
+Renames the current branch to main.
+
+3. git config --global user.name "Your Name"
+Sets the username used for Git commits.
+
+4. git config --global user.email "email@example.com"
+Sets the email address associated with Git commits.
+
+5. git status
+Displays the current state of the working directory and staging area.
+
+6. git add .
+Stages all non-ignored files for the next commit.
+
+7. git add index.html
+Stages the specified HTML file.
+
+8. git commit -m "message"
+Records staged changes as a new commit with a descriptive message.
+
+9. git log --oneline
+Displays the commit history in a compact format.
+
+10. git branch feature
+Creates a new branch named feature.
+
+11. git switch feature
+Switches the active working branch to feature.
+
+12. git branch
+Displays all local branches and identifies the active branch.
+
+13. git log --oneline --all --decorate
+Displays commits across all branches with branch references.
+
+14. git switch main
+Switches the active working branch back to main.
+
+15. git merge feature
+Merges changes from the feature branch into main.
+
+16. git log --oneline --graph --decorate --all
+Displays the complete commit history in graphical format.
+
+17. git status --ignored
+Displays the working directory status, including ignored files and folders.
+
+18. git add .gitignore
+Stages the .gitignore file for committing.
+
+19. git add undo-demo.txt
+Stages the demonstration file for the undo operation.
+
+20. git revert HEAD
+Creates a new commit that reverses the changes introduced by the latest commit.
+
+21. git log --oneline -5
+Displays the five most recent commits.
+
+22. git remote add origin URL
+Connects the local repository to the specified GitHub remote repository.
+
+23. git push -u origin main
+Pushes the main branch to GitHub and configures upstream tracking.
+
+24. git push -u origin feature
+Pushes the feature branch to GitHub and configures upstream tracking.
+
+25. git remote -v
+Displays the URLs configured for fetching and pushing to remote repositories.
